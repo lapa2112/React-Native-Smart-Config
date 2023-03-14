@@ -2,6 +2,7 @@ package com.reactnativesmartconfigswjava
 
 import java.util.Arrays
 import java.util.Collections
+import java.util.List
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule
@@ -15,6 +16,6 @@ class SmartconfigSwjavaPackage : ReactPackage {
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
-        return emptyList<ViewManager<*, *>>()
+        return Collections.emptyList<ViewManager<*, *>>()
     }
 }
